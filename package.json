@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "dev:host": "vite --host",
     "build": "vite build",
@@ -19,6 +19,7 @@
     "@types/react-dom": "^19.0.2",
     "@vitejs/plugin-react": "^4.3.4",
     "axios": "^1.7.9",
+    "gh-pages": "^6.2.0",
     "prettier-plugin-css-order": "^2.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
