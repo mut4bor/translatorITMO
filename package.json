@@ -1,0 +1,28 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "homepage": "",
+  "description": "translator by Molchanov Matvey",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "dev:host": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "axios": "^1.7.9",
+    "prettier-plugin-css-order": "^2.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vite": "^6.0.6",
+    "vite-plugin-checker": "^0.8.0"
+  }
+}
